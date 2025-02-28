@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device=width, inital scale=1.0"/>
+    <title>SurveyForm Loki</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="center">
+    <h1 id="title">Cannabis Survey</h1>
+    <p id="description">Quick questions about <a id="link1" href="https://www.leafly.com/news/cannabis-101"> cannabis</a>, tools, and various types of consumption about THC/Cannabanoids.</p>
+    <form id="survey-form">
+    <section class="section1">
+      <label id="name-label" for="name-label">
+      <placeholder class="ph1"> What should we remeber you by?</placeholder>
+       <p for="name">Nickname <input type="text" id="name" required max="13" min="3" placeholder="ex.John Doe"/> (3-12 Characters) </p>
+       </label>
+   </section>
+   <section class="section2">
+     <label="email-label" for="email-label">
+     <placeholder class="ph2">How should we contact you back?<placeholder>
+    <label id="email-label" text="This is for emails">
+     <p for="email"> Email <input id="email" type="email" required max="50" placeholder="ex. example@email.com"> ("NO@gmail.com" will work too!)</p> 
+     </label>
+   </section>
+   <section class="section3">
+     <label id="number-label" for="number-label">
+     <placeholder class="ph3"> Age for demographic results :)<placeholder>
+     <p id="age"> Age (Optional) <input id="number" type="number" min="21" max="105" placeholder="(select one)"> (21+ Only)</p>
+     </label>
+   </section>
+   <section class="section4">
+     <placeholder class="ph4"> What type of strain are you? Or enjoy?</placeholder>
+     <select id="dropdown" name="dropdown"> 
+
+       <option value=""> (select one)</option>
+       <option value="1"> Indica</option>
+       <option value="2"> Sativa</option>
+       <option value="3"> Hybrid</option>
+     </select>
+   </section>
+   <section class="section5">
+     <placeholder class="ph5">What is your way of getting elevated?</placeholder>
+     <fieldset>
+     <input type="radio" name="selection" required class="inline" value="4"> Smoking
+     <input type="radio" name="selection" required value="5"> Edibles
+     <input type="radio" name="selection" required value="6">Tinctures
+     <input type="radio" name="selection" required value="7"> Capsules
+     <input type="radio" name="selection" required value="8"> Topicals
+     </fieldset>  
+   </section>
+   <section class="section6">
+     <legacy>How did you learn about cannabis? </legacy>
+     <fieldset class="fs2">
+       <legacy class="lg2"> Life Experience </legacy>
+       <input type="checkbox" name="question" required value="9"/> 
+     </fieldset>
+     <fieldset class="fs2">
+       <legacy class="lg2">Books & Magazines </legacy>
+       <input type="checkbox" name="question" value="10"/> 
+     </fieldset>
+     <fieldset class="fs2">
+       
+       <label id="checkbox-questions" for="questions">
+    <legacy class="lg2">Podcasts</legacy>   <input type="checkbox" name="question" value="11" id="question"/> 
+     </fieldset> 
+     </label>
+   </section>
+   <section>
+    <placeholder class="ta1"> What was the best experience you have ever had with cannabis? </placeholder>
+     <textarea name="tamove" min="25" max="1000"  rows="15" cols="60" >First time smoking, or best strain, best conversation, anything!</textarea>
+   </section>
+   <fieldset class="submitb">
+     <label id="submity" for="submit">
+   <input type="submit" id="submit" value="Seedmit"> </label>  
+   </form>
+   </div>
+</html>

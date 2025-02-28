@@ -1,0 +1,214 @@
+h1 {
+  background-color: green;
+  border: solid;
+  margin: auto;
+  padding-left: 30%;
+  padding-right: 0px;
+  font-family: cursive;
+}
+
+p {
+  font-family: tahoma;
+  margin-right: auto;
+  font-size: 17px;
+  text-align: center;
+  color: lime;
+  margin: auto;
+  
+}
+
+.section1 {
+  border: solid;
+  color: darkgreen;  
+ width: 500px;
+ height: 3.5rem;
+ border-left: double;
+ border-right: double;
+ display: inline-block;
+background-color: grey;
+
+}
+
+input[id="name"] {
+  border-color: black;
+  border: solid;
+}
+
+body {
+  background-image: url("https://as1.ftcdn.net/v2/jpg/03/02/84/34/1000_F_302843493_zSbwbXlo8vePNVu8VHbNUkNzYvQp9pFz.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+  padding-top: 300px;
+  overflow-y: auto;
+}
+
+input[id="description"] {
+  padding-left: 40%
+  
+}
+
+.section2 {
+  color:green;
+  border: solid;
+  width: 500px;
+  background-color: grey;
+  display: inline-block;
+  border-left: double;
+  border-right: double;
+}
+
+input[id="email"] {
+  border: solid;
+}
+
+#description {
+   background: grey;
+   border: solid;
+   border-color: black;
+}
+
+a {
+  color: white;
+}
+
+.section3 {
+  background-color: grey;
+  border: solid;
+  border-left: double;
+  border-right: dobule; 
+  width: 500px;
+  margin: auto;
+}
+
+input[id="age"] {
+  border: solid;
+  border-color: black;
+}
+
+.ph1 {
+  color: white;
+  padding-left: 130px;
+}
+
+.ph2 {
+  color: white;
+  padding-left: 140px;
+}
+
+.ph3 {
+  color: white;
+  padding-left: 150px;
+}
+
+.section4 {
+  width: 500px;
+  background-color: grey;
+  border: solid;
+  border-color: green;
+  border-left: double;
+  border-right: double;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.ph4 {
+  color: lime;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.ph5 {
+  color: lime;
+  padding-left: 85px;
+  font-size: 20px;
+  
+
+  
+}
+
+.section5 {
+  background-color: grey;
+  border: solid;
+  border-left: double;
+  border-right: dobule; 
+  width: 500px;
+  
+  
+}
+
+.section6 {
+  color:lime;
+  border: solid;
+  width: 375px;
+  background-color: grey;
+  display: inline-block;
+  border-left: double;
+  border-right: double;
+  padding-left: 130px;
+  padding-right: 0px;
+  border-color: green;
+ 
+}
+
+.fs2 {
+  width: 100px;
+  border-color: green;
+
+  
+}
+
+input[value="11"] {
+   font-size: 10px;
+}
+
+.lg2 {
+  color: black;
+  display: center;
+}
+
+input[id="submit"] {
+  width: 483px;
+  display: center;
+}
+
+.submitb {
+  border-color: lime;
+  background-color: grey;
+  width: 70px;
+}
+
+.ta1 {
+  display: inline-block;
+  background-color: grey;
+  border: solid;
+  border-color: white;
+  
+}
+
+textarea {
+  display: inline-block;
+  background-color: grey;
+  border-color: lime;
+  width: 450px;
+}
+
+
+ .section1, .section2, .section3, .section4, .section5, .section6 {
+    max-width: 80%; 
+    width: 500px; 
+    margin: 20px auto; 
+}
+
+#center {
+  width: 600px; 
+  margin: 50px auto; 
+  background-color: rgba(0, 0, 0, 0.8); 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.6);
+}
